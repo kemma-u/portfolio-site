@@ -13,7 +13,8 @@ p: Rasa */
 header {
   background-color: #eeeeee;
   width: 100%;
-  border-bottom: 5px solid #cccccc; 
+  border-bottom: 5px solid #cccccc;
+  position: fixed;
 }
 
 h1 {
