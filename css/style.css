@@ -20,6 +20,13 @@ header {
   top: 0;
 }
 
+.logo {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1 {
   font-family: 'Merriweather Sans', sans-serif;
   font-size: 2.25em;
@@ -101,4 +108,13 @@ a:active { /* selected link */
 .button.contact:active {
   background-color: #466676;
   color: #93FFFC  ;
+}
+
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
