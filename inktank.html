@@ -14,9 +14,11 @@
 <body>
   <header>
     <div>
-      <a href="index.html">
-        <img src="images/logo.svg" alt="Kemma Ubushin logo" />
-      </a>
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/logo.svg" alt="Kemma Ubushin logo" />
+        </a>
+      </div>
       <nav>
         <ul>
           <li><a href="index.html">Work</a></li>
@@ -28,132 +30,136 @@
   </header>
 
   <main>
-    <div class="container">
-      <div>
+    <div id="hero">
+      <div class="container">
         <div>
-          <h1>InkTank</h1>
+          <div>
+            <h1>InkTank</h1>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div>
-        <picture>
-          <source srcset="images/inktank/banner@1x.jpg" media="(max-width:767px)">
-          <img src="images/inktank/banner@2x.jpeg" alt="InkTank banner">
-        </picture>
-        <p>InkTank was a single person project completed as part of
-          CareerFoundry’s UX Immersion course. The intent of the project and
-          curriculum were to fully immerse the student in the UX Design process.
-          This included learning all the skills, tools and processes of a UX
-          Designer and to apply them while completing a design project from
-          start to finish within the context of building a responsive app.
-          InkTank is a mobile application used to help people in their tattoo
-          decision process. The application is designed for people who are
-          interested in getting tattoos or people who already have tattoos.
-          Some features the application includes are browsing images and
-          artists, locating nearby tattoo shops as well as searching for tattoo
-          designs. The process included creating a competitive
-          analysis, interviewing potential users to gain insight, creating user
-          personas, then creating low- to mid- to high-fidelity wireframes to get
-          to the final prototype.</p>
-      </div>
-      <div>
-        <h1>My Process</h1>
-        <h2><u>Research</u></h2>
-        <p>One of the first steps in the design process was creating a
-          Competitive Analysis. The two competitors we used to compare were
-          <a href="http://www.inkhunter.tattoo/" target="_blank">INKHUNTER</a>
-          and <a href="https://www.tattoodo.com/" target="_blank">Tattoodo</a>.
-          The Competitive Analysis provided an informative insight about the
-          already existing competitors on the market, as well served as the
-          basis for setting up user stories.</p>
-        <p>Next was creating User Stories to help define the needs and goals
-          of potential users of the InkTank app. This included setting up
-          scenarios for the login/sign up process, the onboarding process,
-          and any features I wanted to include in the InkTank app.</p>
-        <p>An additional part of the research process was interviewing
-          potential users. The objective of this was to gain insights into
-          the wants of users to better understand how people decide on moving
-          forward in the tattoo decision process and where they find their
-          inspiration for their next tattoo.</p>
-        <p>Based on the research obtained from the Competitive Analysis and
-          User Interviews, I was then able to create User Personas to protray
-          my target users for my product. With these User Personas, I was also
-          able to create User Flows to help myself imagine a user using my app.
-          Here, I was able to see an end-to-end process flow.</p>
-        <h3>User Flow example</h3>
-        <picture>
-          <source srcset="images/inktank/user_flow@1x.png" media="(max-width:767px)">
-          <img src="images/inktank/user_flow@2x.png" alt="InkTank user flow">
-        </picture>
-        <h3>Sitemap</h3>
-        <picture>
-          <source srcset="images/inktank/site_map@1x.png" media="(max-width:767px)">
-          <img src="images/inktank/site_map@2x.png" alt="Site Map">
-        </picture>
-        <h2><u>Wireframes</u></h2>
-        <h3>Low-Fidelity Prototype</h3>
-        <picture>
-          <source srcset="images/inktank/low_fidelity@1x.png" media="(max-width:767px)">
-          <img src="images/inktank/low_fidelity@2x.png" alt="Low-Fidelity">
-        </picture>
-        <h3>Mid-Fidelity Prototypes</h3>
-        <picture>
-          <source srcset="images/inktank/mid_fidelity_001@1x.jpg" media="(max-width:767px)">
-          <img src="images/inktank/mid_fidelity_001@2x.jpg" alt="Mid-Fidelity">
-        </picture>
-        <picture>
-          <source srcset="images/inktank/mid_fidelity_002@1x.jpg" media="(max-width:767px)">
-          <img src="images/inktank/mid_fidelity_002@2x.jpg" alt="Mid-Fidelity">
-        </picture>
-        <picture>
-          <source srcset="images/inktank/mid_fidelity_003@1x.jpg" media="(max-width:767px)">
-          <img src="images/inktank/mid_fidelity_003@2x.jpg" alt="Mid-Fidelity">
-        </picture>
-        <picture>
-          <source srcset="images/inktank/mid_fidelity_004@1x.jpg" media="(max-width:767px)">
-          <img src="images/inktank/mid_fidelity_004@2x.jpg" alt="Mid-Fidelity">
-        </picture>
-        <h2>Usability Test Plan</h2>
-        <p><a href="files/inktank_usability_test_plan.pdf" target="_blank">Click here</a> to view the Usability Test Plan</p>
-        <h2>Usability Test Insights</h2>
-        <p>
-        <ul>
-          <li>Continue to create the other screens to make a fully functional prototype.</li>
-          <li>Learn how to make the Onboarding screens a swipe motion as most users felt the Next and Previous buttons to be redundant.</li>
-          <li>Relook at the Search screen and see where adjustments can be made to get rid of unnecessary white space.</li>
-          <li>Review text size is consistent throughout the app.</li>
-          <li>Possibly add a call icon on the Search Results screen.</li>
-        </ul>
-        </p>
-        <h2>Design Documentation</h2>
-        <p><a href="files/inktank_design_documentation.pdf" target="_blank">Click here</a> to view the Design Documentation</p>
-        <h2>InkTank Demo</h2>
-        <iframe width="825.5" height="550.5" src="https://www.youtube.com/embed/G-d4S6f_Mg8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p><a href="https://xd.adobe.com/view/d2cdb5d3-a116-4c47-4a06-14c7e6437e54-a4fc/?fullscreen&hints=off" target="_blank">Click here</a> to try the live prototype for yourself!</p>
+      <div class="container">
+        <div>
+          <picture>
+            <source srcset="images/inktank/banner@1x.jpg" media="(max-width:767px)">
+            <img src="images/inktank/banner@2x.jpeg" alt="InkTank banner">
+          </picture>
+          <p>InkTank was a single person project completed as part of
+            CareerFoundry’s UX Immersion course. The intent of the project and
+            curriculum were to fully immerse the student in the UX Design process.
+            This included learning all the skills, tools and processes of a UX
+            Designer and to apply them while completing a design project from
+            start to finish within the context of building a responsive app.
+            InkTank is a mobile application used to help people in their tattoo
+            decision process. The application is designed for people who are
+            interested in getting tattoos or people who already have tattoos.
+            Some features the application includes are browsing images and
+            artists, locating nearby tattoo shops as well as searching for tattoo
+            designs. The process included creating a competitive
+            analysis, interviewing potential users to gain insight, creating user
+            personas, then creating low- to mid- to high-fidelity wireframes to get
+            to the final prototype.</p>
+        </div>
+        <div>
+          <h1>My Process</h1>
+          <h2><u>Research</u></h2>
+          <p>One of the first steps in the design process was creating a
+            Competitive Analysis. The two competitors we used to compare were
+            <a href="http://www.inkhunter.tattoo/" target="_blank">INKHUNTER</a>
+            and <a href="https://www.tattoodo.com/" target="_blank">Tattoodo</a>.
+            The Competitive Analysis provided an informative insight about the
+            already existing competitors on the market, as well served as the
+            basis for setting up user stories.</p>
+          <p>Next was creating User Stories to help define the needs and goals
+            of potential users of the InkTank app. This included setting up
+            scenarios for the login/sign up process, the onboarding process,
+            and any features I wanted to include in the InkTank app.</p>
+          <p>An additional part of the research process was interviewing
+            potential users. The objective of this was to gain insights into
+            the wants of users to better understand how people decide on moving
+            forward in the tattoo decision process and where they find their
+            inspiration for their next tattoo.</p>
+          <p>Based on the research obtained from the Competitive Analysis and
+            User Interviews, I was then able to create User Personas to protray
+            my target users for my product. With these User Personas, I was also
+            able to create User Flows to help myself imagine a user using my app.
+            Here, I was able to see an end-to-end process flow.</p>
+          <h3>User Flow example</h3>
+          <picture>
+            <source srcset="images/inktank/user_flow@1x.png" media="(max-width:767px)">
+            <img src="images/inktank/user_flow@2x.png" alt="InkTank user flow">
+          </picture>
+          <h3>Sitemap</h3>
+          <picture>
+            <source srcset="images/inktank/site_map@1x.png" media="(max-width:767px)">
+            <img src="images/inktank/site_map@2x.png" alt="Site Map">
+          </picture>
+          <h2><u>Wireframes</u></h2>
+          <h3>Low-Fidelity Prototype</h3>
+          <picture>
+            <source srcset="images/inktank/low_fidelity@1x.png" media="(max-width:767px)">
+            <img src="images/inktank/low_fidelity@2x.png" alt="Low-Fidelity">
+          </picture>
+          <h3>Mid-Fidelity Prototypes</h3>
+          <picture>
+            <source srcset="images/inktank/mid_fidelity_001@1x.jpg" media="(max-width:767px)">
+            <img src="images/inktank/mid_fidelity_001@2x.jpg" alt="Mid-Fidelity">
+          </picture>
+          <picture>
+            <source srcset="images/inktank/mid_fidelity_002@1x.jpg" media="(max-width:767px)">
+            <img src="images/inktank/mid_fidelity_002@2x.jpg" alt="Mid-Fidelity">
+          </picture>
+          <picture>
+            <source srcset="images/inktank/mid_fidelity_003@1x.jpg" media="(max-width:767px)">
+            <img src="images/inktank/mid_fidelity_003@2x.jpg" alt="Mid-Fidelity">
+          </picture>
+          <picture>
+            <source srcset="images/inktank/mid_fidelity_004@1x.jpg" media="(max-width:767px)">
+            <img src="images/inktank/mid_fidelity_004@2x.jpg" alt="Mid-Fidelity">
+          </picture>
+          <h2>Usability Test Plan</h2>
+          <p><a href="files/inktank_usability_test_plan.pdf" target="_blank">Click here</a> to view the Usability Test Plan</p>
+          <h2>Usability Test Insights</h2>
+          <p>
+          <ul>
+            <li>Continue to create the other screens to make a fully functional prototype.</li>
+            <li>Learn how to make the Onboarding screens a swipe motion as most users felt the Next and Previous buttons to be redundant.</li>
+            <li>Relook at the Search screen and see where adjustments can be made to get rid of unnecessary white space.</li>
+            <li>Review text size is consistent throughout the app.</li>
+            <li>Possibly add a call icon on the Search Results screen.</li>
+          </ul>
+          </p>
+          <h2>Design Documentation</h2>
+          <p><a href="files/inktank_design_documentation.pdf" target="_blank">Click here</a> to view the Design Documentation</p>
+          <h2>InkTank Demo</h2>
+          <iframe width="825.5" height="550.5" src="https://www.youtube.com/embed/G-d4S6f_Mg8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p><a href="https://xd.adobe.com/view/d2cdb5d3-a116-4c47-4a06-14c7e6437e54-a4fc/?fullscreen&hints=off" target="_blank">Click here</a> to try the live prototype for yourself!</p>
+        </div>
       </div>
     </div>
   </main>
 
   <footer id="contact">
-    <div class="container">
-    <div>
-      <h1>Get in Touch!</h1>
-      <p>Do you like my work and want to discuss opportunities? Please get in
-        touch. Call: <a href="tel:848-123-1234">+1 (848) 123-1234</a> or <a href="mailto:kemmaubushin@gmail.com" class="button contact">send an email.</a></p>
+    <div id="hero">
+      <div class="container">
+        <div>
+          <h1>Get in Touch!</h1>
+          <p>Do you like my work and want to discuss opportunities? Please get in
+            touch. Call: <a href="tel:848-123-1234">+1 (848) 123-1234</a> or <a href="mailto:kemmaubushin@gmail.com" class="button contact">send an email.</a></p>
+        </div>
+        <div>
+          <!--Social Media Layout and Placeholders-->
+          <nav>
+            <ul>
+              <li><a href="https://www.linkedin.com/in/kemmaubushin/" target="_blank"><img src="images/linkedin.svg"></a></li>
+              <li><a href="https://www.behance.net/kemma_ux" target="_blank"><img src="images/behance.svg"></a></li>
+              <li><a href="https://twitter.com/kemma_u" target="_blank"><img src="images/twitter.svg"></a></li>
+            </ul>
+          </nav>
+          <p>Copyright © Kemma Ubushin 2020</p>
+        </div>
+      </div>
     </div>
-    <div>
-      <!--Social Media Layout and Placeholders-->
-      <nav>
-        <ul>
-          <li><a href="https://www.linkedin.com/in/kemmaubushin/" target="_blank"><img src="images/linkedin.svg"></a></li>
-          <li><a href="https://www.behance.net/kemma_ux" target="_blank"><img src="images/behance.svg"></a></li>
-          <li><a href="https://twitter.com/kemma_u" target="_blank"><img src="images/twitter.svg"></a></li>
-        </ul>
-      </nav>
-      <p>Copyright © Kemma Ubushin 2020</p>
-    </div>
-  </div>
   </footer>
 
 </body>
