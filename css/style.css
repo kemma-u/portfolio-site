@@ -31,6 +31,16 @@ main{
   margin-right: auto;
 }
 
+footer{
+  text-align: center;
+}
+
+ul > li{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.00em;
+  font-weight: 100;
+}
+
 nav > ul {
   list-style-type: none;
   padding: 0;
@@ -58,12 +68,15 @@ h1 {
   font-size: 2.25em;
   font-weight: 300;
   text-align: center;
+  color: #f79381;
 }
 
 h2 {
   font-family: 'Biryani', sans-serif;
   font-size: 1.75em;
   font-weight: 400;
+  text-align: center;
+  color: #f79381;
 }
 
 h3 {
