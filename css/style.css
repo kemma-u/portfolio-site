@@ -12,6 +12,7 @@ p: Rasa */
 
 header {
   background-color: #eeeeee;
+  text-align: center;
   padding: 10px;
   margin: 0 auto;
   width: 100%;
@@ -24,12 +25,17 @@ main{
   padding-top: 174px;
 }
 
-.logo {
+.logo{
+  max-width: 250px;
+  margin: auto;
+}
+
+/* .logo {
   max-width: 250px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 footer{
   text-align: center;
@@ -41,17 +47,24 @@ ul > li{
   font-weight: 100;
 }
 
+nav {
+  width: 100%;
+  margin: 20px 0;
+}
+
 nav > ul {
   list-style-type: none;
+  width: 100%;
   padding: 0;
 }
 
 nav > ul > li {
   display: inline-block;
+  text-align: center;
 }
 
 nav > ul > li > a {
-  padding: 0 15px;
+  text-align: center;
 }
 
 nav > ul > li > a:hover, a:focus {
@@ -158,4 +171,30 @@ a:active { /* selected link */
 
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+  text-align: unset;
+}
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+}
+
+/* ==============================
+Extra-large devices (1920px or larger)
+================================= */
+@media only screen and (min-width: 1920px) {
 }
