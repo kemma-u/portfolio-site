@@ -9,39 +9,33 @@ Fonts:
 H1: Merriweather Sans
 H2: Biryani
 p: Rasa */
-
 header {
   background-color: #eeeeee;
   text-align: center;
   padding: 10px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
   box-shadow: 0px 5px 10px 0px rgba(100, 100, 100, 0.75);
   position: fixed;
-  top: 0;
 }
 
-main{
-  padding-top: 174px;
+main {
+  padding-top: 182px;
 }
 
-.logo{
-  max-width: 250px;
-  margin: auto;
-}
-
-/* .logo {
+.logo {
   max-width: 250px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-} */
+}
 
-footer{
+footer {
   text-align: center;
 }
 
-ul > li{
+ul>li {
   font-family: 'Roboto', sans-serif;
   font-size: 1.00em;
   font-weight: 100;
@@ -52,27 +46,27 @@ nav {
   margin: 20px 0;
 }
 
-nav > ul {
+nav>ul {
   list-style-type: none;
-  width: 100%;
   padding: 0;
 }
 
-nav > ul > li {
+nav>ul>li {
   display: inline-block;
-  text-align: center;
 }
 
-nav > ul > li > a {
-  text-align: center;
+nav>ul>li>a {
+  padding: 0 15px;
 }
 
-nav > ul > li > a:hover, a:focus {
+nav>ul>li>a:hover, a:focus {
   color: #FAC8BF;
-  text-decoration: underline; /* Underlining when hovering over a link */
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
 }
 
-nav > ul > li > a:active { /* selected link */
+nav>ul>li>a:active {
+  /* selected link */
   color: #93FFFC;
 }
 
@@ -88,7 +82,6 @@ h2 {
   font-family: 'Biryani', sans-serif;
   font-size: 1.75em;
   font-weight: 400;
-  text-align: center;
   color: #f79381;
 }
 
@@ -110,15 +103,18 @@ img, iframe {
 
 a {
   color: #466676;
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
+  /* No underlining */
 }
 
 a:hover, a:focus {
   color: #FAC8BF;
-  text-decoration: underline; /* Underlining when hovering over a link */
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
 }
 
-a:active { /* selected link */
+a:active {
+  /* selected link */
   color: #93FFFC;
 }
 
@@ -137,7 +133,7 @@ a:active { /* selected link */
   text-decoration: none;
 }
 
-.button:active{
+.button:active {
   display: inline-block;
   background-color: #466676;
   color: #93FFFC;
@@ -161,7 +157,7 @@ a:active { /* selected link */
 
 .button.contact:active {
   background-color: #466676;
-  color: #93FFFC  ;
+  color: #93FFFC;
 }
 
 /* Layout styling */
@@ -170,7 +166,8 @@ a:active { /* selected link */
 }
 
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
 }
 
 /* ==============================
@@ -178,23 +175,47 @@ Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
   header {
-  text-align: unset;
-}
+    text-align: unset;
+  }
+
+  .logo {
+    margin-left: unset;
+    margin-right: unset;
+  }
+
+  nav {
+    width: auto; /* Why is this not aligned with the logo? */
+    float: right;
+    margin: 0px 10px 0px 0px;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+  float: left;
+  padding: 10px;
+  }
+
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
 }
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
-@media only screen and (min-width: 1024px) {
-}
+@media only screen and (min-width: 1024px) {}
+
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {
-}
+@media only screen and (min-width: 1440px) {}
 
 /* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
-@media only screen and (min-width: 1920px) {
-}
+@media only screen and (min-width: 1920px) {}
