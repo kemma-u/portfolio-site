@@ -125,6 +125,8 @@ a:active {
   font-weight: 200;
   padding: 10px;
   border-radius: 3px;
+  transition-duration: 0.2s;
+  transition-property: opacity;
 }
 
 .button:hover {
@@ -219,3 +221,9 @@ X-large devices (1440px or larger)
 Extra-large devices (1920px or larger)
 ================================= */
 @media only screen and (min-width: 1920px) {}
+
+.berlin-illustration{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
