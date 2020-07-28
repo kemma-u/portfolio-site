@@ -125,7 +125,6 @@ a:active {
   font-weight: 200;
   padding: 10px;
   border-radius: 3px;
-  transition: 0.2s opacity;
 }
 
 .button:hover {
