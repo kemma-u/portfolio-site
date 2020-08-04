@@ -26,7 +26,7 @@ main {
 
 .logo {
   max-width: 250px;
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
 }
