@@ -11,7 +11,6 @@ H2: Biryani
 p: Rasa */
 header {
   background-color: #eeeeee;
-  text-align: center;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -52,10 +51,9 @@ nav>ul {
   padding: 0;
 }
 
-nav>ul>li {
+/*nav>ul>li {
   display: inline-block;
-}
-
+}*/
 nav>ul>li>a {
   padding: 0 15px;
 }
@@ -173,6 +171,21 @@ a:active {
   /* 25px top and bottom, 0 left and right */
 }
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -181,13 +194,17 @@ Medium devices (640px and larger)
     text-align: unset;
   }
 
+  nav>ul>li {
+    display: inline-block;
+  }
+
   .logo {
     margin-left: unset;
     margin-right: unset;
   }
 
   nav {
-    width: auto; /* Why is this not aligned with the logo? */
+    width: auto;
     float: right;
     margin: 0px 10px 0px 0px;
   }
@@ -197,14 +214,22 @@ Medium devices (640px and larger)
   }
 
   [class*="col-"] {
-  float: left;
-  padding: 10px;
+    float: left;
+    padding: 10px;
   }
 
   .row::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
   }
 }
 
@@ -223,16 +248,24 @@ Extra-large devices (1920px or larger)
 ================================= */
 @media only screen and (min-width: 1920px) {}
 
-.berlin-illustration{
+.berlin-illustration {
   width: 100%;
   max-width: 100%;
   height: auto;
 }
 
 @keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
+  0% {
+    fill: #edc655;
+  }
+
+  50% {
+    fill: #fcffad;
+  }
+
+  100% {
+    fill: #f76414;
+  }
 }
 
 .sun {
@@ -240,8 +273,13 @@ Extra-large devices (1920px or larger)
 }
 
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
 }
 
 .cloud-front {
@@ -249,8 +287,13 @@ Extra-large devices (1920px or larger)
 }
 
 @keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
+  from {
+    transform: translate(446px, 48px);
+  }
+
+  to {
+    transform: translate(100px, 48px);
+  }
 }
 
 .cloud-back {
