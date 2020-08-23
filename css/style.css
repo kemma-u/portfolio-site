@@ -11,7 +11,8 @@ H2: Biryani
 p: Rasa */
 header {
   background-color: #eeeeee;
-  padding: 10px;
+  text-align: center;
+  padding: 10px 0;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -20,12 +21,15 @@ header {
 }
 
 main {
-  padding-top: 236px;
+  padding-top: 197px;
 }
 
 .logo {
   max-width: 150px;
   min-width: 250px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 2.5em;
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
@@ -42,7 +46,8 @@ ul>li {
 }
 
 nav {
-  /*width: 100%;*/
+  display: inline-block;
+  width: 100%;
   margin: 20px 0;
 }
 
@@ -52,11 +57,17 @@ nav>ul {
   margin: 0;
 }
 
-/*nav>ul>li {
+nav>ul>li {
   display: inline-block;
-}*/
+  list-style-type: none;
+  padding: 0;
+}
+
 nav>ul>li>a {
   padding: 0 15px;
+  color: #466676;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 nav>ul>li>a:hover, a:focus {
@@ -187,7 +198,7 @@ a:active {
   font-size: 20px;
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
 }
 
