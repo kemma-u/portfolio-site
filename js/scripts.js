@@ -1,5 +1,3 @@
-console.log("Hi! Welcome to My Portfolio Site");
-
 $('#heading-text').text('How to create a hamburger menu with jQuery');
 
 function menuToggle() {
