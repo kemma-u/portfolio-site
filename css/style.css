@@ -12,7 +12,8 @@ p: Rasa */
 header {
   background-color: #eeeeee;
   text-align: center;
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -21,7 +22,7 @@ header {
 }
 
 main {
-  padding-top: 217px;
+  padding-top: 197px;
 }
 
 .logo {
@@ -48,7 +49,7 @@ ul>li {
 nav {
   display: inline-block;
   width: 100%;
-  margin: 20px 0;
+  margin: 20px 0px;
 }
 
 nav>ul {
@@ -219,13 +220,20 @@ Medium devices (640px and larger)
 @media only screen and (min-width: 640px) {
   header {
     text-align: unset;
-    padding: 20px 0 13px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+
+  main{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 130px;
   }
 
   nav {
     width: auto;
     float: right;
-    margin-top: 4px;
+    margin-top: 10px;
   }
 
   nav>ul>li {
