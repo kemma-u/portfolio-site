@@ -18,11 +18,10 @@ header {
   margin-right: auto;
   width: 100%;
   box-shadow: 0px 5px 10px 0px rgba(100, 100, 100, 0.75);
-  position: fixed;
 }
 
 main {
-  padding-top: 197px;
+  padding-top: 10px;
 }
 
 .logo {
