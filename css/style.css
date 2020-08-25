@@ -221,6 +221,7 @@ Medium devices (640px and larger)
     text-align: unset;
     padding-top: 10px;
     padding-bottom: 0px;
+    position: fixed;
   }
 
   main{
