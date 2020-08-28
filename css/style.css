@@ -1,9 +1,8 @@
 /* Colors:
-Light pink: #FAC8BF
-Cyan: #FAC8BF
-Dark blue: #466676
-Light blue: #6A8D9E
-Light grey: #CCCCCC
+EDDFEF
+D5CFE1
+B7B6C1
+464655
 
 Fonts:
 H1: Merriweather Sans
@@ -65,20 +64,20 @@ nav>ul>li {
 
 nav>ul>li>a {
   padding: 0 15px;
-  color: #466676;
+  color: #464655;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 nav>ul>li>a:hover, a:focus {
-  color: #FAC8BF;
+  color: #B7B6C1;
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
 
 nav>ul>li>a:active {
   /* selected link */
-  color: #93FFFC;
+  color: #ffffff;
 }
 
 h1 {
@@ -86,14 +85,14 @@ h1 {
   font-size: 2.25em;
   font-weight: 300;
   text-align: center;
-  color: #f79381;
+  color: #57576B;
 }
 
 h2 {
   font-family: 'Biryani', sans-serif;
   font-size: 1.75em;
   font-weight: 400;
-  color: #f79381;
+  color: #57576B;
 }
 
 h3 {
@@ -106,6 +105,7 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 1.00em;
   font-weight: 100;
+  color: #464655;
 }
 
 img, iframe {
@@ -119,7 +119,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #FAC8BF;
+  color: #B7B6C1;
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
@@ -131,7 +131,7 @@ a:active {
 
 .button {
   display: inline-block;
-  background-color: #6A8D9E;
+  background-color: #464655;
   color: #ffffff;
   font-weight: 200;
   padding: 10px;
@@ -141,15 +141,16 @@ a:active {
 }
 
 .button:hover {
-  background-color: #466676;
+  background-color: #464653;
+  color: #EDDFEF;
   text-decoration: none;
   opacity: 0.8;
 }
 
 .button:active {
   display: inline-block;
-  background-color: #466676;
-  color: #93FFFC;
+  background-color: #464653;
+  color: #EDDFEF;
   font-weight: 200;
   padding: 10px;
   border-radius: 3px;
@@ -158,14 +159,14 @@ a:active {
 
 .button.contact {
   background-color: transparent;
-  color: #466676;
-  border: 2px solid #466676;
+  color: #464655;
+  border: 2px solid #464655;
   text-decoration: none;
 }
 
 .button.contact:hover {
-  background-color: #466676;
-  color: #FAC8BF;
+  background-color: #464655;
+  color: #ffffff;
 }
 
 .button.contact:active {
@@ -219,7 +220,7 @@ Medium devices (640px and larger)
 @media only screen and (min-width: 640px) {
   header {
     text-align: unset;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 0px;
     position: fixed;
   }
@@ -227,7 +228,7 @@ Medium devices (640px and larger)
   main{
     padding-left: 200px;
     padding-right: 200px;
-    padding-top: 130px;
+    padding-top: 150px;
   }
 
   nav {

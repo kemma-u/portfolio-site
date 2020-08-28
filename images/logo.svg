@@ -1,16 +1,17 @@
-<svg width="250" height="100" xmlns="http://www.w3.org/2000/svg">
+<svg width="20" height="10" xmlns="http://www.w3.org/2000/svg">
 
  <g>
   <title>background</title>
-  <rect fill="none" id="canvas_background" height="102" width="252" y="-1" x="-1"/>
+  <rect fill="none" id="canvas_background" height="12" width="22" y="-1" x="-1"/>
  </g>
  <g>
-  <title>Layer 1</title>
-  <g opacity="0.5" id="svg_6">
-   <rect id="svg_2" height="64.558124" width="64.558124" y="0.359688" x="69.058198" stroke-width="1.5" fill="#6a8d9e"/>
-   <rect id="svg_3" height="64.558124" width="64.558124" y="19.135557" x="91.949327" stroke-width="1.5" fill="#fac8bf"/>
-   <rect id="svg_5" height="64.558124" width="64.558124" y="35.082186" x="116.383676" stroke-width="1.5" fill="#cccccc"/>
+  <g stroke="null" id="svg_13">
+   <g stroke="null" id="svg_11">
+    <rect stroke="null" fill="#eddfef" x="5.096069" y="0.065484" id="svg_5" width="6.527751" height="6.527751"/>
+    <rect stroke="null" fill="#d5cfe1" x="6.74884" y="1.729251" id="svg_6" width="6.527751" height="6.527751"/>
+    <rect stroke="null" fill="#b7b6c1" x="8.376191" y="3.406765" id="svg_7" width="6.527751" height="6.527751"/>
+   </g>
+   <text stroke="null" transform="matrix(0.5525989747362974,0,0,0.5525989747362974,0.3608434858954658,1.2986463060003963) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="4" id="svg_10" y="7.956385" x="2.660685" stroke-opacity="null" stroke-width="0" fill="#464655">Kemma Ubushin</text>
   </g>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_7" y="58.294445" x="36.294205" stroke-width="0" fill="#466676">Kemma Ubushin</text>
  </g>
 </svg>
