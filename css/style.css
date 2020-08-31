@@ -95,6 +95,10 @@ h2 {
   color: #57576B;
 }
 
+h2.intro{
+  text-align: center;
+}
+
 h3 {
   font-family: 'Biryani', sans-serif;
   font-size: 1.25em;
