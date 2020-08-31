@@ -9,6 +9,7 @@ H1: Merriweather Sans
 H2: Biryani
 p: Rasa */
 header {
+  color: transparent;
   background-color: #eeeeee;
   text-align: center;
   padding-top: 20px;
@@ -64,12 +65,14 @@ nav>ul>li {
 
 nav>ul>li>a {
   padding: 0 15px;
+  background-color: transparent;
   color: #464655;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 nav>ul>li>a:hover, a:focus {
+  background-color: transparent;
   color: #B7B6C1;
   text-decoration: underline;
   /* Underlining when hovering over a link */
@@ -77,6 +80,7 @@ nav>ul>li>a:hover, a:focus {
 
 nav>ul>li>a:active {
   /* selected link */
+  background-color: transparent;
   color: #ffffff;
 }
 
@@ -85,6 +89,7 @@ h1 {
   font-size: 2.25em;
   font-weight: 300;
   text-align: center;
+  background-color: transparent;
   color: #57576B;
 }
 
@@ -92,6 +97,7 @@ h2 {
   font-family: 'Biryani', sans-serif;
   font-size: 1.75em;
   font-weight: 400;
+  background-color: transparent;
   color: #57576B;
 }
 
@@ -109,6 +115,7 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 1.00em;
   font-weight: 100;
+  background-color: transparent;
   color: #464655;
 }
 
@@ -117,12 +124,14 @@ img, iframe {
 }
 
 a {
+  background-color: transparent;
   color: #466676;
   text-decoration: none;
   /* No underlining */
 }
 
 a:hover, a:focus {
+  background-color: transparent;
   color: #B7B6C1;
   text-decoration: underline;
   /* Underlining when hovering over a link */
@@ -130,6 +139,7 @@ a:hover, a:focus {
 
 a:active {
   /* selected link */
+  background-color: transparent;
   color: #93FFFC;
 }
 
@@ -297,17 +307,9 @@ Extra-large devices (1920px or larger)
 }
 
 @keyframes color-change {
-  0% {
-    fill: #edc655;
-  }
-
-  50% {
-    fill: #fcffad;
-  }
-
-  100% {
-    fill: #f76414;
-  }
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
 }
 
 .sun {
