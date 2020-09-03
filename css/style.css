@@ -46,13 +46,14 @@ footer {
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
   padding: 5px;
 }
 
-ul>li {
+ul > li {
   font-family: 'Roboto', sans-serif;
+  color: #57576B;
   font-size: 1.00em;
   font-weight: 100;
 }
