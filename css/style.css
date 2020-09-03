@@ -39,6 +39,18 @@ footer {
   text-align: center;
 }
 
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  padding: 5px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  padding: 5px;
+}
+
 ul>li {
   font-family: 'Roboto', sans-serif;
   font-size: 1.00em;
@@ -101,7 +113,7 @@ h2 {
   color: #57576B;
 }
 
-h2.intro{
+h2.intro {
   text-align: center;
 }
 
@@ -119,7 +131,7 @@ p {
   color: #464655;
 }
 
-hr.short{
+hr.short {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -227,7 +239,6 @@ a:active {
   padding: 24px 0 0;
 }
 
-
 .navtoggle.responsive li {
   display: block;
   padding: 5px 0;
@@ -248,7 +259,7 @@ Medium devices (640px and larger)
     position: fixed;
   }
 
-  main{
+  main {
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 150px;
@@ -316,9 +327,17 @@ Extra-large devices (1920px or larger)
 }
 
 @keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
+  0% {
+    fill: #edc655;
+  }
+
+  50% {
+    fill: #fcffad;
+  }
+
+  100% {
+    fill: #f76414;
+  }
 }
 
 .sun {
